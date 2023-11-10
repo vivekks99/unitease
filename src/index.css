@@ -269,7 +269,6 @@ button:focus {
     .category-container{
         position: absolute;
         padding-top: 100px;
-        padding-left: 5px;
         top: 0;
         left: -100%;
         opacity: 1;
@@ -277,6 +276,10 @@ button:focus {
         width: 50%;
         background-color: #fbe7cc;
         min-height: 100vh;
+    }
+    .category {
+        max-width: 70%;
+        padding-left: 5px;
     }
     .sidebar-active{
         left: 0;
